@@ -1,0 +1,235 @@
+@import url(null.css);
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lobster&display=swap');
+
+
+@font-face {
+   font-family: "JetBrains_Mono";
+   src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2"), url("../fonts/JetBrainsMono-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "JetBrains_Mono";
+   src: url("../fonts/JetBrainsMono-Bold.woff2") format("woff2"), url("../fonts/JetBrainsMono-Bold.woff") format("woff");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "JetBrains_Mono";
+   src: url("../fonts/JetBrainsMono-BoldItalic.woff2") format("woff2"), url("../fonts/JetBrainsMono-BoldItalic.woff") format("woff");
+   font-weight: 600;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "JetBrains_Mono";
+   src: url("../fonts/JetBrainsMono-ExtraBold.woff2") format("woff2"), url("../fonts/JetBrainsMono-ExtraBold.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "JetBrains_Mono";
+   src: url("../fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/JetBrainsMono-ExtraBoldItalic.woff") format("woff");
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+/* ------------------------------------- */
+body{
+   font-family: "JetBrains_Mono";
+}
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+}
+
+.nav{
+   font-family: 'Lobster', cursive;
+   font-size: 20px;
+}
+
+.top-header{
+   color: #0000ff;
+   margin: 10px 10px 0 10px;
+}
+
+.top-header img{
+   margin: 0px 10px 0px 0px;
+}
+
+.header-info{
+   display: inline-block;
+}
+
+.header-info a{
+   font-size: 40px;
+   line-height: 1.5;
+   text-decoration: overline;
+   letter-spacing: 7px;
+}
+.header-info p{
+   color: gray;
+   text-align: center;
+}
+.menu{
+   color: #00ff45;
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+.menu li{
+   display: inline-block;
+}
+
+.menu li a {
+   display: inline-block;
+   padding: 20px;
+}
+/* ----------------------------------------- */
+.all-publications{
+   font-family: 'Caveat', cursive;
+   font-family: 'Lobster', cursive;
+   text-decoration: underline;
+   font-size: 18px;
+   line-height: 2;
+   text-transform: uppercase;
+   max-width: 50%;
+   margin: 0 20px 20px auto;
+}
+
+.all-publications li{
+   text-align: right;
+}
+
+.all-publications ul > li ul > li{
+   color: blueviolet;
+}
+/* --------------------------------------------- */
+.title{
+   font-size: 40px;
+   text-align: center;
+   text-decoration: underline;
+   word-spacing: 10px;
+   text-shadow: 5px 5px 5px rgb(107, 26, 132);
+}
+
+.info{
+   max-width: 550px;
+   max-height: 150px;
+   overflow: auto;
+   margin-bottom: 30px;
+}
+
+.info p{
+   padding: 15px 10px;
+}
+
+.info-img{
+   max-width: 300px;
+}
+
+/* ---------------------------------- */
+.info-2{
+   height: 400px;
+   overflow: scroll;
+}
+
+.info-2 h2{
+   font-weight: 900;
+   font-style: italic;
+   font-size: 24px;
+   text-shadow: 2px 2px 2px rgb(40, 76, 193);
+}
+
+.info-2 img{
+   height: 70%;
+   display: block;
+   margin: 0 auto;
+}
+
+.info-2 p{
+   color: #5f2a0b;
+   width: 700px;
+   margin: -50px auto 0 auto;
+   padding: 10px 0;
+   font-weight: 600;
+}
+
+/* ------------------------------------------ */
+
+.img-1{
+   width: 200px;
+}
+.img-2{
+   height: 400px;
+   display: block;
+   margin: 5%;
+}
+
+/* ---------------------------------------------- */
+
+.info-4{
+   padding: 30px 30px 40px 10px;
+   height: 213px;
+   max-width: 75%;
+   overflow: scroll;
+   margin: 0 auto 100px 0;
+}
+
+.info-4 p{
+   font-size: 20px;
+   font-weight: 600;
+   font-style: italic;
+   line-height: 2;
+   text-decoration: line-through;
+   color: #5f2a0b;
+}
+
+/* ---------------------------- */
+.info-5{
+   overflow: scroll;
+   height: 700px;
+}
+.info-item{
+   max-width: 80%;
+   margin: 0 auto;
+}
+.info-title{
+   font-size: 25px;
+   font-weight: bold;
+   line-height: 2;
+   text-decoration: overline;
+   text-shadow: 1px 2px 3px rgb(61, 151, 142);
+}
+.info-text{
+   font-size: 11px;
+   word-spacing: 5px;
+   padding-left: 50px;
+}
+.info-li{
+   color: #00ff45;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+
+.item-img{
+   max-width: 400px;
+   margin-bottom: 100px;
+}
+
+
+.footer{
+   color: aqua;
+   font-size: 30px;
+   font-weight: 900;
+   text-align: center;
+}
